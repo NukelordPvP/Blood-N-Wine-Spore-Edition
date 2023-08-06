@@ -1,0 +1,747 @@
+#
+# ID to video card mappings
+#   maps the vendor id to vendor name,
+#   maps the card id to card name
+#
+
+#############################################################################
+
+vendor "AMD" 0x1002
+    
+    # ATI uses primary/secondary cardid
+    
+    #-----------------------------------------
+    # x4x00 series (4.0)  
+    card 0x9442 "Radeon HD 4850"
+    
+    #-----------------------------------------
+    # x3x00 series (4.0)  
+    
+    card 0x950F "Radeon HD 3870 X2" # Crossfire
+    card 0x9509 "Radeon HD 3870 X2" 
+    card 0x9508 "Radeon HD 3870"
+    card 0x9501 "Radeon HD 3870"
+    card 0x724e "Radeon HD 3870"
+    card 0x726e "Radeon HD 3870"
+    card 0x9519 "Radeon HD 3870"
+    card 0x9511 "Radeon HD 3870"
+   
+    card 0x9513 "Radeon HD 3850 X2" # Crossfire
+    card 0x9506 "Radeon HD 3850 X2" 
+    card 0x9505 "Radeon HD 3850"
+    card 0x9504 "Radeon HD 3850"
+    card 0x9507 "Radeon HD 3850"
+    card 0x9515 "Radeon HD 3850 AGP"
+    
+    card 0x9590 "Radeon HD 3600"
+    card 0x9597 "Radeon HD 3600"
+    card 0x9598 "Radeon HD 3600"
+    card 0x9599 "Radeon HD 3600"
+    card 0x9591 "Radeon HD 3600"
+    card 0x9593 "Radeon HD 3600"
+    card 0x9596 "Radeon HD 3600 AGP"
+    
+    card 0x95C5 "Radeon HD 3400"
+    card 0x95C4 "Radeon HD 3400"
+    card 0x95C2 "Radeon HD 3400" 
+    card 0x95c7 "Radeon HD 3400"
+    card 0x95c0 "Radeon HD 3400"
+    
+    card 0x9614 "Radeon HD 3200"
+    card 0x9610 "Radeon HD 3200"
+    card 0x9612 "Radeon HD 3200"
+    
+    #-----------------------------------------
+    # x2x00 series (4.0)  
+    card 0x9405 "Radeon HD 2900"
+    card 0x9404 "Radeon HD 2900"
+    card 0x9403 "Radeon HD 2900"
+    card 0x9402 "Radeon HD 2900"
+    card 0x9401 "Radeon HD 2900"
+    card 0x9400 "Radeon HD 2900"
+    
+    card 0x958E "Radeon HD 2600"
+    card 0x958B "Radeon HD 2600" # Mobility
+    card 0x9589 "Radeon HD 2600" # AGP
+    card 0x9588 "Radeon HD 2600" 
+    card 0x9587 "Radeon HD 2600" # Pro
+    card 0x9586 "Radeon HD 2600" # AGP
+    card 0x9583 "Radeon HD 2600"
+    card 0x9581 "Radeon HD 2600"
+    card 0x95cc "Radeon HD 2600"
+    
+    card 0x94CB "Radeon HD 2400"
+    card 0x94C9 "Radeon HD 2400"
+    card 0x94C5 "Radeon HD 2400"
+    card 0x94C4 "Radeon HD 2400"
+    card 0x94C3 "Radeon HD 2400"
+    card 0x94C1 "Radeon HD 2400"
+    card 0x94CC "Radeon HD 2400"
+    card 0x9611 "Radeon HD 2400"
+    card 0x9613 "Radeon HD 2400"
+ 
+    card 0x94C8 "Radeon HD 2300"
+    card 0x94C7 "Radeon HD 2300" # 2350
+    card 0x718A "Radeon HD 2300"
+    card 0x7188 "Radeon HD 2300"
+    card 0x7211 "Radeon HD 2300"
+    card 0x7210 "Radeon HD 2300"
+    card 0x958D "Radeon HD 2300" # firegl
+    card 0x958C "Radeon HD 2300"
+    card 0x940F "Radeon HD 2300"
+    card 0x940B "Radeon HD 2300"
+    card 0x940A "Radeon HD 2300"
+    
+    #-----------------------------------------
+    # x1x00 series (3.0)
+    card 0x7248 "Radeon X1900"
+    card 0x7249 "Radeon X1900"
+    card 0x724A "Radeon X1900"
+    card 0x724B "Radeon X1900"
+    card 0x724C "Radeon X1900"
+    card 0x724D "Radeon X1900"
+    card 0x724F "Radeon X1900"
+    card 0x7243 "Radeon X1900"
+    card 0x7245 "Radeon X1900"
+    card 0x7246 "Radeon X1900"
+    card 0x7247 "Radeon X1900"
+    card 0x7268 "Radeon X1900"
+    card 0x7269 "Radeon X1900"
+    card 0x726A "Radeon X1900"
+    card 0x726B "Radeon X1900"
+    card 0x726C "Radeon X1900"
+    card 0x726D "Radeon X1900"
+    card 0x726F "Radeon X1900"
+    card 0x7263 "Radeon X1900"
+    card 0x7265 "Radeon X1900"
+    card 0x7266 "Radeon X1900"
+    card 0x7267 "Radeon X1900"
+    card 0x7280 "Radeon X1900"
+    card 0x7240 "Radeon X1900"
+    card 0x7244 "Radeon X1900"
+    card 0x72A0 "Radeon X1900"
+    card 0x7260 "Radeon X1900"
+    card 0x7264 "Radeon X1900"
+    card 0x7288 "Radeon X1900"
+    card 0x72A8 "Radeon X1900"
+    card 0x7284 "Radeon X1900"
+    
+    card 0x7100 "Radeon X1800"
+    card 0x7101 "Radeon X1800"
+    card 0x7102 "Radeon X1800"
+    card 0x7105 "Radeon X1800"
+    card 0x7108 "Radeon X1800"
+    card 0x7109 "Radeon X1800"
+    card 0x7120 "Radeon X1800"
+    card 0x7129 "Radeon X1800"
+    card 0x710A "Radeon X1800"
+    card 0x710B "Radeon X1800"
+    card 0x710C "Radeon X1800"
+    card 0x7100 "Radeon X1800"
+    card 0x7125 "Radeon X1800"
+    card 0x7128 "Radeon X1800"
+    card 0x712A "Radeon X1800"
+    card 0x712B "Radeon X1800"
+    card 0x712C "Radeon X1800"
+    card 0x7124 "Radeon X1800" # firegl
+    card 0x710E "Radeon X1800"
+    card 0x712E "Radeon X1800"
+    card 0x710F "Radeon X1800"
+    card 0x712F "Radeon X1800"
+    card 0x7104 "Radeon X1800" 
+    card 0x7106 "Radeon X1800 Mobility" 
+    card 0x7103 "Radeon X1800 Mobility"
+    
+    card 0x71C0 "Radeon X1600"
+    card 0x71C2 "Radeon X1600"
+    card 0x71E0 "Radeon X1600"
+    card 0x71E2 "Radeon X1600"
+    card 0x81EE "Radeon X1600"
+    card 0x81C0 "Radeon X1600"
+    card 0x7140 "Radeon X1600"
+    card 0x71CD "Radeon X1600"
+    card 0x7181 "Radeon X1600"
+    card 0x7160 "Radeon X1600"
+    card 0x71ED "Radeon X1600"
+    card 0x71A1 "Radeon X1600"
+    card 0x71C6 "Radeon X1600"
+    card 0x7291 "Radeon X1600"
+    card 0x7293 "Radeon X1600"
+    card 0x71C1 "Radeon X1600"
+    card 0x71C5 "Radeon X1600 Mobility"
+    card 0x71C7 "Radeon X1600"
+    card 0x71E6 "Radeon X1600"
+    card 0x72B1 "Radeon X1600"
+    card 0x72B3 "Radeon X1600"
+    card 0x71E1 "Radeon X1600"
+    card 0x71E7 "Radeon X1600"
+    card 0x719B "Radeon X1600"
+    card 0x71BB "Radeon X1600"
+    card 0x71D4 "Radeon X1600 Mobility" 
+   
+    card 0x7142 "Radeon X1300"
+    card 0x7146 "Radeon X1300"
+    card 0x7162 "Radeon X1300"
+    card 0x7166 "Radeon X1300"
+    card 0x714E "Radeon X1300"
+    card 0x715E "Radeon X1300"
+    card 0x714D "Radeon X1300"
+    card 0x71CE "Radeon X1300"
+    card 0x71C3 "Radeon X1300"
+    card 0x718F "Radeon X1300"
+    card 0x716E "Radeon X1300"
+    card 0x717E "Radeon X1300"
+    card 0x716D "Radeon X1300"
+    card 0x71E3 "Radeon X1300"
+    card 0x71AF "Radeon X1300"
+    card 0x7190 "Radeon X1300"
+    card 0x7183 "Radeon X1300"
+    card 0x7187 "Radeon X1300"
+    card 0x71A0 "Radeon X1300"
+    card 0x71A3 "Radeon X1300"
+    card 0x71A7 "Radeon X1300"
+    card 0x7147 "Radeon X1300"
+    card 0x715F "Radeon X1300"
+    card 0x7167 "Radeon X1300"
+    card 0x717f "Radeon X1300"
+    card 0x7193 "Radeon X1300"
+    card 0x7143 "Radeon X1300"
+    card 0x71B3 "Radeon X1300"
+    card 0x7163 "Radeon X1300"
+    card 0x7149 "Radeon X1300"
+    card 0x714A "Radeon X1300"
+    card 0x714B "Radeon X1300"
+    card 0x714C "Radeon X1300"
+    card 0x718B "Radeon X1300"
+    card 0x718C "Radeon X1300"
+    card 0x7196 "Radeon X1300"
+    card 0x7145 "Radeon X1300"
+    card 0x7186 "Radeon X1300"
+    card 0x718D "Radeon X1300"
+    card 0x71C4 "Radeon X1300"
+    card 0x71D5 "Radeon X1300"
+    card 0x71DE "Radeon X1300"
+    card 0x71D6 "Radeon X1300"
+    card 0x7152 "Radeon X1300" # firegl
+    card 0x7172 "Radeon X1300"
+    card 0x7153 "Radeon X1300"
+    card 0x7173 "Radeon X1300"
+    card 0x71D2 "Radeon X1300"
+    card 0x71DA "Radeon X1300"
+    card 0x71F2 "Radeon X1300"
+    card 0x71FA "Radeon X1300"
+    card 0x5E48 "Radeon X1300"
+    card 0x7180 "Radeon X1300"
+    card 0x719f "Radeon X1300"
+    card 0x71ee "Radeon X1300"
+    
+    card 0x791E "Radeon X1200"
+    card 0x791F "Radeon X1200"
+    card 0x793F "Radeon X1200"
+    card 0x7941 "Radeon X1200"
+    card 0x7942 "Radeon X1200"
+    card 0x5A62 "Radeon X1200"
+    card 0x5975 "Radeon X1200"
+    card 0x5A42 "Radeon X1200"
+   
+    #-----------------------------------------
+    # x8xx series (2b)
+    card 0x4B49 "Radeon X850"
+    card 0x4B4B "Radeon X850"
+    card 0x4B4C "Radeon X850"
+    card 0x4B69 "Radeon X850"
+    card 0x4B6B "Radeon X850"
+    card 0x4B6C "Radeon X850"
+    card 0x5D52 "Radeon X850"
+    card 0x5D4D "Radeon X850"
+    card 0x5D4F "Radeon X850"
+    card 0x5D6F "Radeon X850"
+    card 0x5D72 "Radeon X850"
+    card 0x5D6D "Radeon X850"
+    card 0x4b4a "Radeon X850"
+    card 0x4b6a "Radeon X850"
+    
+    card 0x554A "Radeon X800"
+    card 0x5D57 "Radeon X800"
+    card 0x5548 "Radeon X800"
+    card 0x5568 "Radeon X800"
+    card 0x5D77 "Radeon X800"
+    card 0x556A "Radeon X800"
+    card 0x4A48 "Radeon X800"
+    card 0x4A49 "Radeon X800"
+    card 0x4A4A "Radeon X800"
+    card 0x4A4B "Radeon X800"
+    card 0x4A4C "Radeon X800"
+    card 0x4A4D "Radeon X800"
+    card 0x4A50 "Radeon X800"
+    card 0x4A68 "Radeon X800"
+    card 0x4A69 "Radeon X800"
+    card 0x4A6A "Radeon X800"
+    card 0x4A6B "Radeon X800"
+    card 0x4A6C "Radeon X800"
+    card 0x4A6D "Radeon X800"
+    card 0x4A6E "Radeon X800"
+    card 0x4A70 "Radeon X800"
+    card 0x5549 "Radeon X800"
+    card 0x554B "Radeon X800"
+    card 0x554D "Radeon X800"
+    card 0x554F "Radeon X800"
+    card 0x5569 "Radeon X800"
+    card 0x556B "Radeon X800"
+    card 0x556D "Radeon X800"
+    card 0x556F "Radeon X800"
+    card 0x4A54 "Radeon X800" 
+    card 0x4A74 "Radeon X800" 
+    card 0x5E68 "Radeon X800" # firegl
+    card 0x5551 "Radeon X800"
+    card 0x5571 "Radeon X800"
+    card 0x5550 "Radeon X800"
+    card 0x5570 "Radeon X800"
+    card 0x5D49 "Radeon X800 Mobility" 
+    card 0x5d4a "Radeon X800 Mobility"
+    card 0x5d48 "Radeon X800 Mobility"
+    card 0x4a4f "Radeon X800"
+    card 0x4a6f "Radeon X800"
+    card 0x5d4e "Radeon X800"
+    card 0x554e "Radeon X800"
+    card 0x5d6e "Radeon X800"
+    card 0x556e "Radeon X800"
+    
+    card 0x5E4B "Radeon X700"
+    card 0x5E4C "Radeon X700"
+    card 0x5E4D "Radeon X700"
+    card 0x5E6B "Radeon X700"
+    card 0x5E6C "Radeon X700"
+    card 0x5E6D "Radeon X700"
+    card 0x5653 "Radeon X700 Mobility"
+    card 0x5673 "Radeon X700 Mobility"
+    card 0x5e4a "Radeon X700 XT"
+    card 0x5e6a "Radeon X700 XT"
+    card 0x566f "Radeon X700"
+    card 0x5652 "Radeon X700 Mobility"
+    card 0x9595 "Radeon X700 Mobility"
+    
+    #-----------------------------------------
+    # these are 9600 variants w/2b
+    card 0x3e50 "Radeon X600"
+    card 0x3e54 "Radeon X600"
+    card 0x3e70 "Radeon X600"
+    card 0x3e74 "Radeon X600"
+    card 0x5B62 "Radeon X600"
+    card 0x5B72 "Radeon X600"
+    card 0x4C66 "Radeon X600"
+    card 0x4C6E "Radeon X600"
+    card 0x3150 "Radeon X600"
+    card 0x5462 "Radeon X600"
+   
+    card 0x5b60 "Radeon X300"
+    card 0x5b64 "Radeon X300"
+    card 0x5b70 "Radeon X300"
+    card 0x5b74 "Radeon X300"
+    card 0x5E4F "Radeon X300"
+    card 0x5E6F "Radeon X300"
+    card 0x5460 "Radeon X300 Mobility"
+    card 0x5461 "Radeon X300 Mobility"
+    card 0x5B63 "Radeon X300"
+    card 0x564F "Radeon X300"
+    card 0x5B65 "Radeon X300" 
+    card 0x5657 "Radeon X300"
+    card 0x5677 "Radeon X300"
+    card 0x5B73 "Radeon X300"
+    card 0x5B75 "Radeon X300" 
+    card 0x5D45 "Radeon X300" 
+    card 0x3152 "Radeon X300 Mobility"
+    card 0x5464 "Radeon X300 Mobility" # firegl
+    card 0x3154 "Radeon X300 Mobility" 
+    card 0x564A "Radeon X300 Mobility" 
+    card 0x564B "Radeon X300 Mobility" 
+   
+    card 0x5854 "Radeon X200" 
+    card 0x5874 "Radeon X200" 
+    card 0x5954 "Radeon X200" 
+    card 0x5955 "Radeon X200 Mobility" 
+    card 0x5965 "Radeon X200"
+    card 0x5974 "Radeon X200" 
+    card 0x5A41 "Radeon X200"
+    card 0x5A43 "Radeon X200" 
+    card 0x5A61 "Radeon X200" 
+    card 0x5A63 "Radeon X200"
+  
+    #-----------------------------------------
+    # 9x00 (2.0)
+    card 0x4148 "Radeon 9800"
+    card 0x4168 "Radeon 9800"
+    card 0x4E48 "Radeon 9800"
+    card 0x4E49 "Radeon 9800"
+    card 0x4E68 "Radeon 9800"
+    card 0x4E69 "Radeon 9800"
+    card 0x4E4A "Radeon 9800 XT"
+    card 0x4E6A "Radeon 9800 XT"
+    card 0x4A4E "Radeon 9800 Mobility"
+    
+    card 0x4145 "Radeon 9700"
+    card 0x4146 "Radeon 9700"
+    card 0x4E44 "Radeon 9700"
+    card 0x4E64 "Radeon 9700"
+    
+    card 0x4152 "Radeon 9600 XT"
+    card 0x4172 "Radeon 9600 XT"
+    card 0x4150 "Radeon 9600 SE"
+    card 0x4151 "Radeon 9600 SE"
+    card 0x4170 "Radeon 9600"
+    card 0x4171 "Radeon 9600 SE"
+    card 0x4E46 "Radeon 9600"
+    card 0x4E66 "Radeon 9600"
+    card 0x4E46 "Radeon 9600 TX"
+    card 0x4E51 "Radeon 9600"
+    card 0x4E71 "Radeon 9600"
+    card 0x4E50 "Radeon 9600 Mobility"
+    card 0x4E54 "Radeon 9600 Mobility" # fire gl - reports 12 temps
+    card 0x4E52 "Radeon 9600 Mobility"
+    card 0x4155 "Radeon 9600"
+    card 0x4166 "Radeon 9600 TX"
+    card 0x4E56 "Radeon 9600 Mobility"
+    card 0x4154 "Radeon 9600" # firegl
+    card 0x4174 "Radeon 9600"
+    #card 0x5B64 "Radeon 9600" # also in x300 series
+    #card 0x5B74 "Radeon 9600" # also in x300 series
+    #card 0x3E54 "Radeon 9600" # also in x600 series
+    #card 0x3E74 "Radeon 9600" # also in x600 series
+    card 0x95ce "Radeon 9600" # firemv
+    card 0x95cf "Radeon 9600"
+    card 0x3151 "Radeon 9600"
+    card 0x3171 "Radeon 9600"
+    card 0x95cd "Radeon 9600"
+    card 0x959b "Radeon 9600"
+    card 0x958f "Radeon 9600"
+    
+    card 0x4153 "Radeon 9500"
+    card 0x4173 "Radeon 9500"
+    card 0x4175 "Radeon 9500"
+    card 0x4144 "Radeon 9500"
+    card 0x4149 "Radeon 9500"
+    card 0x4164 "Radeon 9500"
+    card 0x4169 "Radeon 9500"
+    card 0x4167 "Radeon 9500"  # firegl
+    card 0x4147 "Radeon 9500"
+    card 0x4E45 "Radeon 9500"
+    card 0x4E47 "Radeon 9500"
+    card 0x4E65 "Radeon 9500"
+    card 0x4E67 "Radeon 9500"
+    card 0x4E4B "Radeon 9500"
+    card 0x4E6B "Radeon 9500"
+    card 0x796e "Radeon 9500" # Radeon 2100 no vs
+    
+end
+
+
+#############################################################################
+
+vendor "NVIDIA" 0x10de 0x10b4 0x12d2 
+    #-----------------------------------------
+    # GT 2x0 (4.0)
+    card 0x05E1 "GeForce GTX 280" 
+    card 0x05E2 "GeForce GTX 260" 
+
+    #-----------------------------------------
+    # 9x00 (4.0)
+    card 0x0604 "GeForce 9800 GX2"
+    card 0x0612 "GeForce 9800 GTX"
+    
+    card 0x0610 "GeForce 9600 GSO"
+    card 0x0622 "GeForce 9600 GT"
+    
+    card 0x0647 "GeForce 9600 Go" # 9600M
+    
+    card 0x0866 "GeForce 9400 Go"
+    card 0x0863 "GeForce 9400 Go"
+    
+    card 0x0640 "GeForce 9500"    # GT120
+    
+    #-----------------------------------------
+    # 8x00 (4.0)
+    card 0x0191 "GeForce 8800 GTX"
+    card 0x0193 "GeForce 8800 GTS"
+    card 0x0194 "GeForce 8800 Ultra"
+    card 0x019D "GeForce 8800" 
+    card 0x061A "GeForce 8800" 
+    card 0x0611 "GeForce 8800 GT"
+    card 0x0606 "GeForce 8800 GS"
+    card 0x0600 "GeForce 8800 GTS"
+    card 0x0602 "GeForce 8800 GT"
+    card 0x0609 "GeForce 8800 GS"
+    
+    card 0x0400 "GeForce 8600 GTS"
+    card 0x0401 "GeForce 8600 GT"
+    card 0x0402 "GeForce 8600 GT "
+    card 0x0403 "GeForce 8600 GS"
+    card 0x0407 "GeForce 8600 Go"
+    card 0x0409 "GeForce 8600 Go"
+    card 0x040A "GeForce 8600"
+    card 0x040E "GeForce 8600"
+    card 0x040F "GeForce 8600"
+    
+    card 0x0420 "GeForce 8300 SE"
+    card 0x0421 "GeForce 8300 GT"
+    card 0x0422 "GeForce 8300 GS"
+    card 0x0423 "GeForce 8300 GS"
+    card 0x0424 "GeForce 8300 GS"
+    card 0x042f "GeForce 8300"
+    card 0x0404 "GeForce 8300 GS"
+    card 0x06e2 "GeForce 8300"
+    card 0x06e4 "GeForce 8300 GS"
+    card 0x0848 "GeForce 8300"
+    card 0x0849 "GeForce 8300"
+    card 0x084b "GeForce 8300"
+    card 0x084f "GeForce 8300"
+    
+    #-----------------------------------------
+    # 7x00 (3.0)
+    card 0x0293 "GeForce 7950 GX2"
+    card 0x0294 "GeForce 7950 GX2"
+    card 0x0295 "GeForce 7950 GT"
+    card 0x02e4 "GeForce 7950 GT"
+    
+    card 0x0290 "GeForce 7900 GTX"
+    card 0x0291 "GeForce 7900 GT"
+    card 0x0292 "GeForce 7900 GS"
+    card 0x0298 "GeForce 7900 Go GS"
+    card 0x0299 "GeForce 7900 Go GTX"
+    card 0x029C "GeForce 7900 Quadro"
+    card 0x029D "GeForce 7900" 
+    card 0x029E "GeForce 7900"
+    card 0x029f "GeForce 7900" 
+    card 0x02e3 "GeForce 7900 GS"
+    
+    card 0x00F5 "GeForce 7800 GS"
+    card 0x0091 "GeForce 7800 GTX"
+    card 0x0092 "GeForce 7800 GT"
+    card 0x0093 "GeForce 7800 GS"
+    card 0x0095 "GeForce 7800 SLI"
+    card 0x0098 "GeForce 7800 Go "
+    card 0x0099 "GeForce 7800 Go GTX"
+    card 0x009D "GeForce 7800 GTX Quadro" 
+    card 0x0090 "GeForce 7800 GTX"
+    card 0x019e "GeForce 7800" 
+        
+    card 0x02E1 "GeForce 7600 GS"
+    card 0x0390 "GeForce 7600 GS"
+    card 0x0391 "GeForce 7600 GT"
+    card 0x0392 "GeForce 7600 GS"
+    card 0x0394 "GeForce 7600 LE"
+    card 0x039e "GeForce 7600" 
+    card 0x02e0 "GeForce 7600 GT"
+    
+    card 0x016a "GeForce 7300 GS" # 7100
+    card 0x01d0 "GeForce 7300 LE"
+    card 0x01d1 "GeForce 7300 LE"
+    card 0x01d3 "GeForce 7300 SE"
+    card 0x01dd "GeForce 7300 LE"
+    card 0x01de "GeForce 7300"
+    card 0x01df "GeForce 7300 GS"
+    card 0x0393 "GeForce 7300 GT"
+    card 0x0395 "GeForce 7300 GT"
+    card 0x02e2 "GeForce 7300 GT"
+    card 0x053a "GeForce 7300"
+    card 0x053b "GeForce 7300"
+    card 0x053e "GeForce 7300"
+    card 0x07e0 "GeForce 7300"
+    card 0x07e1 "GeForce 7300"
+    card 0x07e2 "GeForce 7300"
+    card 0x07e3 "GeForce 7300"
+    card 0x07e5 "GeForce 7300"
+    card 0x084a "GeForce 7300"
+    card 0x084c "GeForce 7300"
+    card 0x084d "GeForce 7300"
+    
+    #-----------------------------------------
+    # 6x00 (3.0)
+    card 0x0040 "GeForce 6800 Ultra"
+    card 0x0041 "GeForce 6800"
+    card 0x0042 "GeForce 6800 LE"
+    card 0x0043 "GeForce 6800"
+    card 0x0044 "GeForce 6800 XT"
+    card 0x0045 "GeForce 6800 GT"
+    card 0x0046 "GeForce 6800 GT"
+    card 0x0047 "GeForce 6800 GS"
+    card 0x0048 "GeForce 6800 XT"
+    card 0x0049 "GeForce 6800 GL"
+    card 0x004e "GeForce 6800 Quadro"
+    card 0x00F6 "GeForce 6800 GS"
+    card 0x00C0 "GeForce 6800"
+    card 0x00C1 "GeForce 6800"
+    card 0x00C2 "GeForce 6800 LE"
+    card 0x00C3 "GeForce 6800 XT"
+    card 0x00C8 "GeForce 6800 Go"
+    card 0x00C9 "GeForce 6800 Go Ultra"
+    card 0x00CC "GeForce 6800 Go Quadro" 
+    card 0x00CD "GeForce 6800 Quadro" 
+    card 0x00CE "GeForce 6800 Go Quadro" 
+    card 0x00F0 "GeForce 6800 GT"
+    card 0x00F8 "GeForce 6800 Quadro"
+    card 0x00F9 "GeForce 6800"
+    card 0x0211 "GeForce 6800"
+    card 0x0212 "GeForce 6800 LE"
+    card 0x0215 "GeForce 6800 GT"
+    card 0x0218 "GeForce 6800 XT"
+    
+    card 0x00F4 "GeForce 6600 LE"
+    card 0x00F1 "GeForce 6600 GT"
+    card 0x00F2 "GeForce 6600"
+    card 0x0140 "GeForce 6600 GT"
+    card 0x0141 "GeForce 6600"
+    card 0x0142 "GeForce 6600"
+    card 0x0143 "GeForce 6600"
+    card 0x0144 "GeForce 6600 Go"
+    card 0x0145 "GeForce 6600 XL"
+    card 0x0147 "GeForce 6600"
+    card 0x0148 "GeForce 6600 Go"
+    card 0x0149 "GeForce 6600"
+    card 0x014A "GeForce 6600"
+    card 0x014B "GeForce 6600"
+    card 0x014C "GeForce 6600 GL"
+    card 0x014D "GeForce 6600 GL"
+    card 0x014E "GeForce 6600 Quadro"
+        
+    card 0x014F "GeForce 6200"
+    card 0x0160 "GeForce 6200"
+    card 0x0161 "GeForce 6200" # TC
+    card 0x0162 "GeForce 6200" # TC
+    card 0x0163 "GeForce 6200"
+    card 0x0164 "GeForce 6200 Go"
+    card 0x0165 "GeForce 6200 Go"
+    card 0x0167 "GeForce 6200 Go"
+    card 0x0168 "GeForce 6200 Go"
+    card 0x0169 "GeForce 6200 Go"
+    card 0x016B "GeForce 6200 Go"
+    card 0x016C "GeForce 6200 Go"
+    card 0x016D "GeForce 6200 Go"
+    card 0x016E "GeForce 6200 Go"
+    card 0x0220 "GeForce 6200"
+    card 0x0221 "GeForce 6200"
+    card 0x0222 "GeForce 6200"
+    card 0x0228 "GeForce 6200 Go"
+    card 0x00F3 "GeForce 6200"
+    
+    card 0x03D0 "GeForce 6100"
+    card 0x03D1 "GeForce 6100"
+    card 0x03D2 "GeForce 6100"
+    card 0x03D5 "GeForce 6100"
+    card 0x0240 "GeForce 6100"
+    card 0x0241 "GeForce 6100"
+    card 0x0242 "GeForce 6100"
+    card 0x0245 "GeForce 6100"
+    
+    
+    #-----------------------------------------
+    # 5x00 (2a)
+    card 0x00fe "GeForce 5950 Quadro"
+    card 0x0333 "GeForce 5950 Ultra"
+    card 0x00ff "GeForce 5900" 
+    card 0x00fb "GeForce 5900"
+    card 0x0332 "GeForce 5900"
+    card 0x0334 "GeForce 5900 ZT"
+    card 0x0338 "GeForce 5900 Quadro"
+    card 0x033f "GeForce 5900 Quadro"
+    card 0x0330 "GeForce 5900 Ultra"
+    card 0x0331 "GeForce 5900"
+    
+    card 0x034c "GeForce 5800 Go Quadro"
+    card 0x0301 "GeForce 5800 Ultra"
+    card 0x0302 "GeForce 5800"
+    
+    card 0x00fa "GeForce 5700"
+    card 0x0341 "GeForce 5700 Ultra"
+    card 0x0342 "GeForce 5700"
+    card 0x0343 "GeForce 5700 LE"
+    card 0x0344 "GeForce 5700 VE"
+    card 0x0345 "GeForce 5700"
+    card 0x0347 "GeForce 5700 Go"
+    card 0x0348 "GeForce 5700 Go"
+    card 0x0349 "GeForce 5700 Pro"
+    card 0x034b "GeForce 5700"
+    card 0x034e "GeForce 5700 Quadro"
+    card 0x034f "GeForce 5700 GL"  
+    
+    # --- identified but unsupported Nvidia cards below this -------------------
+    
+    card 0x0308 "GeForce 5600 Quadro"
+    card 0x0309 "GeForce 5600 Quadro"
+    card 0x030a "GeForce 5600"
+    card 0x0311 "GeForce 5600 Ultra"
+    card 0x0312 "GeForce 5600"
+    card 0x0313 "GeForce 5600"
+    card 0x0314 "GeForce 5600 SE"
+    card 0x0316 "GeForce 5600 Go"
+    card 0x0317 "GeForce 5600 Go Pro"
+    card 0x031a "GeForce 5600 Go"
+    card 0x031b "GeForce 5650 Go"
+    card 0x031c "GeForce 5600 Go Quadro"
+    card 0x031d "GeForce 5600 Go"
+    card 0x031e "GeForce 5600 Go Pro"
+    card 0x031f "GeForce 5600 Go Pro"
+    card 0x0329 "GeForce 5600"
+    card 0x032a "GeForce 5600 GL"
+    card 0x032b "GeForce 5600 Quadro"
+    card 0x032f "GeForce 5600 GL"
+    card 0x0326 "GeForce 5600"
+    
+    card 0x00fc "GeForce 5200"
+    card 0x00fd "GeForce 5200 Quadro"
+    card 0x032c "GeForce 5200 Go"
+    card 0x0320 "GeForce 5200"
+    card 0x0321 "GeForce 5200 Ultra"
+    card 0x0322 "GeForce 5200"
+    card 0x0323 "GeForce 5200 SE"
+    card 0x0324 "GeForce 5200 Go"
+    card 0x0328 "GeForce 5200 Go"
+    card 0x0325 "GeForce 5200 Go"
+    card 0x0327 "GeForce 5200"
+    card 0x032d "GeForce 5200 Go"
+   
+end
+
+#############################################################################
+
+vendor "Intel" 0x8086
+    
+    # intel uses primary/secondary cardid
+    # X3100 series (hwvp 3.0, hwps 3.0, occl, fp targets)
+    card 0x2A02 "GM965"
+    card 0x2A03 "GM965"
+    # need 965GL, G35, G45 
+    
+    # X3000 series (hwvp 3.0, hwps 3.0)
+    card 0x29A2 "G965" 
+    card 0x29A3 "G965"
+    
+    # 950/3000/3100 (swvp 3.0, hwps 2.0)
+    card 0x2772 "945"
+    card 0x2776 "945"
+    card 0x27A2 "945 Mobile"
+    card 0x27A6 "945 Mobile"
+    card 0x2972 "945" # 946
+    card 0x2973 "945" # 946
+    card 0x29B2 "Q35"
+    card 0x29B3 "Q35"
+    card 0x29C2 "G35"
+    card 0x29C3 "G35"
+    card 0x29D2 "Q35"
+    card 0x29D3 "Q35"
+    card 0x2992 "Q35" #"Q965" # avoid mixup with G965
+    card 0x2993 "Q35" #"Q965"
+    
+    # --- identified but unsupported Intel cards below this -------------------
+    
+    # 900 series (swvp 2.0, hwps 2.0)
+    card 0x2582 "915"
+    card 0x2782 "915"
+    card 0x2592 "915 Mobile"
+    card 0x2792 "915 Mobile"
+    
+end
+
+vendor "S3" 0x5333
+    
+end
+

@@ -1,0 +1,168 @@
+GrumpheadCellsPack1_V1
+changes cells to be more deadly
+
+ProjectRehatch 
+makes creature stage flora retextured
+
+DifferentNameGenerator
+changes name combo generator
+
+!!!!!!!!!!!!!!Animspeed
+fixes creature walking anim for fast creatures
+
+GASpaceTimelineFix
+fixes timeline bug in space stage
+
+Tribal Village Freedom
+allows you to place huts in more places
+
+Challenging_Tribal_Stage
+makes it much harder
+
+MrsWhitesAdventuresBegoneV1
+removes ga adventures from space stage
+
+replaces the 7 existing spice and adds 40 more spice in there place
+also accidently increases space stage difficulty because most empires wont want your spice
+
+Editors cost zero
+Parts cost zero
+
+Any Tool any Planet 1.0
+lets you modify any planet including your other empires homeworlds
+
+Any Tool any Planet Infinity 2.1 - DISABLED
+this mod gives 1 sec cooldown on ALL weapons tools and superpowers. It allows use of these on any planet including your homeworld
+
+Hardcore Space Mod
+Makes space stage much harder
+
+GeneticLibrary
+takes a creature of your choice from the sporepedia and adds it to your cargohold
+
+!!!!!!!!!!!!!!!!!ForceSave-PATCH7TEST2 (Can upload)
+allows you to force spore to save
+
+EditorBg
+New Editor Backgrounds mod
+
+IntegratedIntegumentv1_1
+Fur Mod
+
+
+B&VMod1.2
+Copies Vehicle and Building parts to each editor, and adds more paints. (Cannot upload)
+
+
+!!!!0!!!_2016_Smoother_v2
+The Smoother v2! LIMBS RETAIN ROTATION WHEN SCALING THE SPINE NOW!!
+
+
+!!!!!!!!!!!!!!!!_DroneParts_2017_PublicRelease_1_2 (Cannot upload)
+Basic Shapes for building
+
+!!!!!!2019_DI_9_r_Beta2-3-2
+Dark Injections Mega Mod
+
+!!Bot_Grob_Parts + BP2_Data = Fixed 2018 bot parts - REDUNDANT (Cannot upload)
+included in dark injection
+
+EnhancedColorPicker
+allows you to pick more colors
+
+!!!!!BackgroundRedone2.0
+retextures background in editor
+
+SnekyGraphicsx2048
+Increases the games LOD field and keeps texture levels high by default, reducing or removing muddy textures. Might impact performance.
+
+WARNING ctds when changing buildings in colony editor
+
+SnekyEffects
+Gives you over 300 new effects to place and play around with in the adventure editor.
+
+MrsWhitesYourInvasion
+Lets YOU invade with your own empires
+
+ByeByeSeaMonstie
+Remove Sea Monster
+
+UPEv1.1.1
+dependancy
+
+Sneky leg day
+Allows you to resize limbs to extra THICC or so small they are invisible. Requires the UPR mod!
+
+Sneky extra wiggly
+Turns your limbs into jello. Make long arms and bodies for a fantastical wiggly effect. Requires the UPR mod!
+
+Spore Graphics Fix
+Properties.txt and ConfigManager.txt
+
+60 fps fix:
+Properties.txt add property frameLimitMS	44	int
+ConfigManager.txt add intProp	frameLimitMS	17
+17 = 60 fps
+11 = 90 fps
+7 = 134 fps
+
+Spore Graphical Improvements Guide:
+http://davoonline.com/phpBB3/viewtopic.php?t=8639
+
+InfiniteScaling
+This mod makes Every part have infinite scaling and shrinking(or as close as your gonna get to infinite)
+
+Spore Enhanced Graphics Project
+http://davoonline.com/phpBB3/viewtopic.php?t=6137
+
+SporeStaker
+Lets you stack parts ontop of parts
+
+mod_dvd_BuildingRotation_v2
+allows you to rotate roofs in the Building Editor as you wish. You can now rotate roofs in 3 dimensions and this allows you to create incredible structures by holding TAB.
+
+SubtleRotations (Can upload)
+reduces part rotation snapping
+
+disguise_as_creature
+Allows you to spawn frozen creatures as statues in adventure editor.
+
+ce_psi_unparented_foot_and_hand
+Psi's Unparented Foot & Hand - Specialized hand & foot that can be placed and animated anywhere (Can upload)
+
+AnimationFix
+Ambers animationfix fixes epic animations
+
+psi_handletweaker
+Psi's handle tweak (Rotation handles and spheres are now transparent.)
+
+CB_Spine_tweaker
+removes spine restrictions
+
+FSDayandNight
+real nights no other info known
+
+DavoCreatureOverhaulV1
+Larger packs/heards of Creatures, Rouges, Epics and more!
+
+Insane_HD_[xxx]
+HD Textures
+
+disabled:
+Insane_HD_Textures_Decals - ctds
+Insane_HD_Textures_Meshes - ctds
+Insane_HD_Textures_Meshes_Part2 - ctds
+Insane_HD_Textures_Particles - ctds
+Insane_HD_Textures_Planet_Textures - ctds
+
+playerVoiceReplacement(X)
+player empire voice changer
+
+!!!!!!ProjectRehatched[x]
+HD Textures
+
+disabled all (mod causes very bad ctds)
+
+----- DARK INJECTIONS MODS:
+Cell parts (Cannot upload)
+Compexity Limit (Can sorta workaround it.)

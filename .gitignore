@@ -396,3 +396,67 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#ignore Blood-N-Wine-Spore-Edition-Export
+Blood-N-Wine-Spore-Edition-Export
+
+#Ignore Spore Unmodifed Folders
+Spore/Data/*
+!Spore/Data/zArenas_Combined.package
+
+#Ignore over 100mb files added to the Spore archives
+zArenas_Combined.package
+SPORE Galactic Adventures/Data/!!!!!!!PR_Misc_Textures3.package
+SPORE Galactic Adventures/Data/!!!!!!2019_DI_9_r_Beta2-3-2_editor_background-!HeroEditorBG.package
+SPORE Galactic Adventures/Data/!!!!!!2019_DI_9_r_Beta2-3-2_UI-Darkspore.package
+SPORE Galactic Adventures/Data/!!!!!!2019_DI_9_r_Beta2-3-2_zzFoundation_Res.package
+SPORE Galactic Adventures/Data/!!!!!!PR_GroundTextures.package
+SPORE Galactic Adventures/Data/!!!!!!PR_misc_Textures1.package
+SPORE Galactic Adventures/Data/!!!!!!PR_misc_Textures2.package
+SPORE Galactic Adventures/Data/!!!!!!!PR_Misc_Textures3.package
+SPORE Galactic Adventures/Data/!!!!!BackgroundRedone2.0.package
+Editorbg.package
+Insane_HD_Flora_Textures.package
+Insane_HD_Textures_BuildingsVehicles.package
+Insane_HD_Textures_Decals.package
+Insane_HD_Textures_Editor_Backgrounds.package
+Insane_HD_Textures_Meshes.package
+Insane_HD_Textures_Particles.package
+Insane_HD_Textures_Parts.package
+Insane_HD_Textures_Planet_Textures.package
+
+#Ignore Spore archives
+zArenas_Combined.7z
+Blood-N-Wine-Spore-Edition-ovr-100mb-fils-4-GA.7z
+!_Documents-My Spore Creations.7z
+\!_Appdata-Spore/\!_Appdata-Spore.7z
+
+#Ignore Spore Galactic Adventures Unmodifed Folders
+Spore/__Installer/*
+SPORE Galactic Adventures/__Installer/*
+Spore/Support/*
+SPORE Galactic Adventures/Support/*
+Spore/BP1Data/*
+Spore/Sporebin/*
+SPORE Galactic Adventures/SporebinEP1/Core/*
+
+#Ignore SporebinEP1 Unmodifed Folders and Game Assets
+SporeApp.exe
+SporeApp.exe.Backup
+SporeApp_ModAPIFix.exe
+#Ignore Spore Assets in Data Folder
+properties.txt
+version.txt
+Spore_EP1_Locale_02.package
+Spore_EP1_Locale_01.package
+Spore_EP1_Data.package
+Spore_EP1_Content_02.package
+Spore_EP1_Content_01.package
+#Ignore Spore Assets in SporebinEP1
+steam_api.dll
+version.txt
+properties.txt
+msvcr90.dll
+msvcr80.dll
+Microsoft.VC90.CRT.manifest
+Microsoft.VC80.CRT.manifest

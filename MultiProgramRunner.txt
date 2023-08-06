@@ -1,0 +1,6 @@
+# Delay is in Seconds
+GLOBAL_DELAY:20
+
+# Jar list and ;num = override GLOBAL_DELAY and use jar specific delay and if ;empty then it will use GLOBAL_DELAY.
+JARS:
+Blood-N-Wine-Spore-Edition-Modpack.jar;10
