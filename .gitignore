@@ -44,6 +44,11 @@ Blood-N-Wine-Spore-Edition-Export
 #Microsoft.VC90.CRT.manifest
 #Microsoft.VC80.CRT.manifest
 
+# Ignore Unpacked Spore Assets
+#tools/SporeModder FX/Projects/Player Creations/
+#tools/SporeModder FX/Projects/Spore \(Game & Graphics\)/
+#tools/SporeModder FX/Projects/Spore Audio/
+
 ### Ignore over 100mb files!
 /!_Spore-Data/Appdata-Spore/My-Game/Spore.7z
 /!_Spore-Data/Appdata-Spore/Pollination-Backup/Modified - No gapro, kept maja45 gaprop and removed shitty creations.7z
