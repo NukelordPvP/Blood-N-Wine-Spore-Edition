@@ -44,11 +44,6 @@ Blood-N-Wine-Spore-Edition-Export
 #Microsoft.VC90.CRT.manifest
 #Microsoft.VC80.CRT.manifest
 
-# Ignore Unpacked Spore Assets
-#tools/SporeModder FX/Projects/Player Creations/
-#tools/SporeModder FX/Projects/Spore \(Game & Graphics\)/
-#tools/SporeModder FX/Projects/Spore Audio/
-
 ### Ignore over 100mb files!
 /!_Spore-Data/Appdata-Spore/My-Game/Spore.7z
 /!_Spore-Data/Appdata-Spore/Pollination-Backup/Modified - No gapro, kept maja45 gaprop and removed shitty creations.7z
@@ -61,9 +56,3 @@ mods/no/Project Rehatched Reborn/PRR1.0/!!!!!!PR_GroundTextures.package
 mods/no/Project Rehatched Reborn/PRR1.0/!!!!!!PR_misc_Textures1.package
 mods/no/Project Rehatched Reborn/PRR1.0/!!!!!!PR_misc_Textures2.package
 mods/no/Project Rehatched Reborn/PRR1.0/!!!!!BackgroundRedone2.0.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/!!!!!!2019_DI_9_r_Beta2-3-2/!!!!!!2019_DI_9_r_Beta2-3-2_editor_background-!HeroEditorBG.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/!!!!!!2019_DI_9_r_Beta2-3-2/!!!!!!2019_DI_9_r_Beta2-3-2_UI-Darkspore.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/!!!!!!2019_DI_9_r_Beta2-3-2/!!!!!!2019_DI_9_r_Beta2-3-2_UI-Shimmer.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/!!!!!!2019_DI_9_r_Beta2-3-2/!!!!!!2019_DI_9_r_Beta2-3-2_zzFoundation_Res.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/!!!!!!2019_DI_9_r_Beta2-3-2/zArenas_Combined.package
-tools/Spore ModAPI Launcher Kit/ModConfigs/BruteLOD/SA_BruteLOD.package
