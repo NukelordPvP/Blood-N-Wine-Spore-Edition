@@ -1,0 +1,2 @@
+FTLdrive = balanced
+Sporedrive = OP

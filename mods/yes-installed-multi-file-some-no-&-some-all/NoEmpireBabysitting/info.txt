@@ -1,0 +1,4 @@
+Normal - The original version of this mod; increases the time between alerts by x2.
+Medium - Increases time between alerts by x4.
+High - Increases time between alerts by x8.
+Extreme - Increases the time between alerts by x12.
