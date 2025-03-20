@@ -1,0 +1,87 @@
+
+# command line argument to rename the config CopyAndModifyFolder uses
+# java com.nukelord.CopyAndModifyFolder.CopyAndModifyFolder my_custom_config.txt
+
+# Configuration file for CopyAndModifyFolder
+
+# Set the level of the main directory in relation to the current directory.
+# Positive value: Main directory is one or more levels above the current directory.
+# Negative value: Main directory is one or more levels below the current directory.
+# 0: Main directory is the same as the current directory (default).
+MAIN_DIRECTORY_LEVEL:0
+
+# Set whether to run the program from the 'mods' folder.
+# If set to true, the main directory will be one level above the 'mods' folder.
+# If set to false (default), the program runs from the current directory.
+RUN_FROM_MODS:false
+
+# Set the destination folder for copied files and modified folders.
+# If USE_CUSTOM_OUTPUT_DIR is set to false, this option will be used as the destination folder. // this is now inverted
+# If USE_CUSTOM_OUTPUT_DIR is set to true, the default destination folder will be 'config-Server'.
+GLOBAL_OVERRIDE_CUSTOM_OUTPUT_DIR:Blood-N-Wine-Spore-Edition-Export/Blood-N-Wine-Spore-Edition-Modpack
+
+# Set whether to use a custom output directory for each source folder.
+# If set to true, each source folder will have its own output directory specified in CUSTOM_OUTPUT_DIR.
+# If set to false (default), all source folders will use the destination folder specified above.
+USE_CUSTOM_OUTPUT_DIR:false
+
+#Copys? confirmed!
+#Checks for deletions? confirmed!
+# Custom output directory for each source folder (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FOLDERS:
+
+  - SOURCE=./SPORE Galactic Adventures/Data
+    CUSTOM_OUTPUT_DIR=./SPORE Galactic Adventures/Data
+
+  - SOURCE=./SPORE Galactic Adventures/SporebinEP1
+    CUSTOM_OUTPUT_DIR=./SPORE Galactic Adventures/SporebinEP1
+
+  - SOURCE=./Spore/Data
+    CUSTOM_OUTPUT_DIR=./Spore/Data
+
+  - SOURCE=./Spore/BP1Data
+    CUSTOM_OUTPUT_DIR=./Spore/BP1Data
+
+#Copys? confirmed!
+#Checks for deletions? NO
+# Custom output directory for each source file (if USE_CUSTOM_OUTPUT_DIR is set to true).
+SOURCE_FILES:
+
+  - SOURCE=/!_bnw-spore-edition-version-1.2
+    CUSTOM_OUTPUT_DIR=/!_bnw-spore-edition-version-1.2
+    
+#Deletes? confirmed!
+# List of client-side config files to be removed from the copied folder.
+# Files should be specified relative to the destination folder.
+CONFIG_LIST:
+  oculus.properties
+  SporeApp.exe
+  SporeApp.exe.Backup
+  SporeApp_ModAPIFix.exe
+  properties.txt
+  Spore_EP1_Locale_02.package
+  Spore_EP1_Locale_01.package
+  Spore_EP1_Data.package
+  Spore_EP1_Content_02.package
+  Spore_EP1_Content_01.package
+  steam_api.dll
+  msvcr90.dll
+  msvcr80.dll
+  Microsoft.VC90.CRT.manifest
+  Microsoft.VC80.CRT.manifest
+  version.txt
+  Spore_Pack_03.package
+  Spore_Graphics.package
+  Spore_Game.package
+  Spore_Content.package
+  Spore_Audio2.package
+  Spore_Audio1.package
+  Spore.ico
+
+#Deletes? confirmed!
+# List of folders to be deleted from the copied folder.
+# Folders should be specified relative to the destination folder.
+FOLDER_LIST:
+  Locale
+  Config
+  

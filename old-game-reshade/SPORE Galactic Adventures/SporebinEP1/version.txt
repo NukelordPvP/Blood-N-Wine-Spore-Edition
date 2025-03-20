@@ -1,0 +1,2 @@
+name=SporeEP1Bin_Shipping_Channel 
+description=Version: 3.1.0.22 Changelist: 980748 Timestamp: 2017-02-25-1659 
